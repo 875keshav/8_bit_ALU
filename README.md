@@ -4,6 +4,23 @@ An 8-bit Arithmetic Logic Unit, commonly known as an 8-bit ALU, is a fundamental
 
 ![image](https://github.com/875keshav/8_bit_ALU/assets/126338618/3bfaa7cf-1755-4f01-8103-02a6f44f0e0d)
 
+## Working
+| OPCODE | OPERATION | East | South | West | Duration |
+|----------|----------|
+| 0000 | Operand1 + Operand2|
+| 0001 | Operand1 - Operand2|
+| 0010 | Operand1 * Operand2|
+| 0011 | Operand1 / Operand2|
+| 0100 | Operand1 + 1 |
+| 0101 | Operand1 - 1 |
+| 0110 | Operand1 & Operand2|
+| 0111 | Operand1 | Operand2|
+| 1000 | ~ Operand1 |
+| 1001 | Operand1 ^ Operand2|
+| 1010 | Operand1 ~^ Operand2|
+| 1011 | ~(Operand1 & Operand2)|
+| 1100 | ~(Operand1 | Operand2)|
+
 
 ## Simulation Result
 ### Simulated waveform
