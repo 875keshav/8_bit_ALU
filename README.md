@@ -16,7 +16,7 @@ An 8-bit Arithmetic Logic Unit, commonly known as an 8-bit ALU, is a fundamental
 | 0101 | Operand1 - 1 |
 | 0110 | Operand1 & Operand2|
 | 0111 | Operand1 | Operand2|
-| 1000 | ~ Operand1 |
+| 1000 | ~ Operand1 | Operand2|
 | 1001 | Operand1 ^ Operand2|
 | 1010 | Operand1 ~^ Operand2|
 | 1011 | ~(Operand1 & Operand2)|
