@@ -8,19 +8,19 @@ An 8-bit Arithmetic Logic Unit, commonly known as an 8-bit ALU, is a fundamental
 
 | OPCODE | OPERATION |
 |----------|----------|
-| 0000 | Operand1 + Operand2|
-| 0001 | Operand1 - Operand2|
-| 0010 | Operand1 * Operand2|
-| 0011 | Operand1 / Operand2|
-| 0100 | Operand1 + 1 |
-| 0101 | Operand1 - 1 |
-| 0110 | Operand1 & Operand2|
-| 0111 | Operand1 **OR**  Operand2|
+| 0000 | Operand1  +  Operand2|
+| 0001 | Operand1  -  Operand2|
+| 0010 | Operand1  *  Operand2|
+| 0011 | Operand1  /  Operand2|
+| 0100 | Operand1  +  1 |
+| 0101 | Operand1  -  1 |
+| 0110 | Operand1  &  Operand2|
+| 0111 | Operand1  **OR**   Operand2|
 | 1000 | ~ Operand1 | 
-| 1001 | Operand1 ^ Operand2|
-| 1010 | Operand1 ~^ Operand2|
-| 1011 | ~(Operand1 & Operand2)|
-| 1100 | ~(Operand1 | Operand2)|
+| 1001 | Operand1  ^  Operand2|
+| 1010 | Operand1  ~^  Operand2|
+| 1011 | ~(Operand1  &  Operand2)|
+| 1100 | ~(Operand1  **OR**  Operand2)|
 
 
 ## Simulation Result
